@@ -1,0 +1,26 @@
+.main {
+  &__body {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    &__item {
+      position: relative;
+      img {
+        width: 100%;
+        max-width: 1900px;
+      }
+
+      h2 {
+        position: absolute;
+        top: 30%;
+        left: 100px;
+        font-size: 50px;
+        color: white;
+        border-left: 2px solid white;
+        padding-left: 40px;
+        font-family: 'Open-Sans';
+      }
+    }
+  }
+}

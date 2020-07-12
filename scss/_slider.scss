@@ -1,0 +1,48 @@
+
+.slick-slider button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+}
+
+.slick-slider .slick-prev {
+  left: 0px;
+  top: 50%;
+  margin-left: 20px;
+}
+
+.slick-slider .slick-next {
+  right: 0px;
+  top: 50%;
+  margin-right: 20px;
+}
+
+.slick-slider .slick-arrow {
+  z-index: 100;
+}
+
+.slick-slider .fa-angle-left {
+  left: 0px;
+  top: 50%;
+  margin-left: 20px;
+}
+
+.slick-slider i {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  line-height: 55px;
+  width: 60px;
+  height: 60px;
+  border: 2px solid green;
+  border-radius: 50%;
+  text-align: center;
+  background-color: green;
+}
+
+.slick-slider .fa-angle-right {
+  right: 0px;
+  top: 50%;
+  margin-right: 20px;
+  z-index: 100;
+}

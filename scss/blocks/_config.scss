@@ -1,0 +1,14 @@
+.config {
+  background-color: #28974d;
+  padding: 10px 150px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      color: white;
+    }
+  }
+}

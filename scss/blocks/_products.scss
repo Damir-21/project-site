@@ -1,0 +1,31 @@
+.product {
+  h1 {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  height: 500px;
+  &__body {
+    &__item {
+      width: 500px;
+      height: 100%;
+      margin-left: 10px;
+      img {
+        margin: auto;
+      }
+      width: 350px;
+      padding: 20px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+    &__item:hover {
+    }
+  }
+}
+
+.production__body__item-block {
+  h3 {
+    margin: 20px 0px;
+  }
+}

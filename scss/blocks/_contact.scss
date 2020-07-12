@@ -1,0 +1,58 @@
+.contact {
+  max-width: 1900px;
+  width: 100%;
+  padding: 80px;
+  background-color: green;
+  &__body {
+    display: flex;
+    justify-content: space-between;
+    &__left {
+      color: white;
+      h3 {
+        font-size: 30px;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+    &__right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      h3 {
+        font-size: 28px;
+        color: white;
+      }
+      .message {
+        margin: 15px 0px;
+        position: relative;
+        input {
+          width: 550px;
+          height: 50px;
+          border-radius: 10px;
+          border: none;
+          padding: 10px 0px 10px 10px;
+        }
+        button {
+          position: absolute;
+          right: 0px;
+          height: 50px;
+          border: none;
+          padding: 10px;
+          background-color: #139e55;
+          color: #fff;
+          font-size: 20px;
+        }
+      }
+      .checkbox {
+        display: flex;
+        align-items: center;
+        color: white;
+        p {
+          margin-left: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
